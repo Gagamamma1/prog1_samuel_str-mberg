@@ -10,7 +10,7 @@ public class Test1 {
 		
 		//tal1=1; //tilldelning
 		
-		
+		//jhsh
 		int tal2=10; //deklarering + tilldelning = initiering
 		
 		System.out.println(tal1);
