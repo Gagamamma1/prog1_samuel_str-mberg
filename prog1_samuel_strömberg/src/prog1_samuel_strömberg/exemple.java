@@ -1,0 +1,28 @@
+package prog1_samuel_strömberg;
+
+import java.util.Scanner;
+
+public class exemple {
+
+	public static void main(String [] args){
+		
+		Scanner input = new Scanner(System.in);
+		
+			System.out.println("Skriv namn :");
+			String namn=input.nextLine();
+		
+		System.out.println("Skriv ålder :");
+		int ålder = input.nextInt();
+		
+			System.out.println("Skriv längd :");
+			double längd = input.nextDouble();
+		
+		System.out.println(namn +" är "+ ålder +" år gammal och "+ längd +" m lång ");
+		
+		System.out.println("Stämmer det?");
+		
+		
+		
+		
+	}
+}
